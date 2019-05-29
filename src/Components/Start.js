@@ -7,7 +7,6 @@ export default class Start extends Component {
             <div>
                 <h3>hello from Start</h3>
                 <Test/>
-                <About/>
             </div>
         )
     }
