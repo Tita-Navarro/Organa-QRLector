@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import Start from './Components/Start';
 import Details from './Components/Details';
+import About from './Components/About';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
 	     <Switch>
 	      <Route  exact path="/" component={Start}/>
 	      <Route path="/details" component={Details}/>
+	      <Route path="/about" component={About}/>
 	     </Switch>
 	       
 	     </React.Fragment>

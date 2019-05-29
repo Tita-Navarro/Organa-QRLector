@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {ConsumerData} from '../context'
+//import {ConsumerData} from '../context'
 
 import ListDetails from './ListDetails'
 
