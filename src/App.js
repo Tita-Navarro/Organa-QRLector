@@ -5,8 +5,9 @@ import Navbar from './Components/Navbar';
 import Start from './Components/Start';
 import Details from './Components/Details';
 
-function App() {
-  return (
+class App extends Component{
+  render(){
+    return(
     <React.Fragment>
        <Navbar></Navbar>
      <Switch>
@@ -16,6 +17,7 @@ function App() {
        
      </React.Fragment>
   );
+}
 }
 
 export default App;
