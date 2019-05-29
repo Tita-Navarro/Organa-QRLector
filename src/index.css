@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.bg{
+  background-color:#FFE522;
+}
+.time{
+  color: black;
+}
+.home{
+  max-width: 2rem;
+}
+.start{
+  margin: 1rem;
+  text-align: center;
+}
+.card{
+  
+  margin:3rem 0.5rem;
+}
