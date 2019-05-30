@@ -26,14 +26,14 @@ class Test extends Component {
     }
  
     return(
-      <div>
+      <div className='d.block'>
         <QrReader
           delay={this.state.delay}
           style={previewStyle}
           onError={this.handleError}
           onScan={this.handleScan}
           />
-        <p>{this.state.result}</p>
+        <p>Bienvenida {this.state.result}</p>
       </div>
     )
   }
